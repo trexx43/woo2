@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Climate Change</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="static/assets/css/main.css"/>
+		<noscript><link rel="stylesheet" href="static/assets/css/noscript.css" /></noscript>
+		<link href="static/assets/css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Vollkorn:400i&display=swap" rel="stylesheet">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#quiz" class="icon solid fa-child"><span>Quiz</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+							<!--Quiz-->
+							<article id="quiz2" class="panel">
+								<header>
+									<h2>What's YOUR carbon footprint?</h2>
+								</header>
+								<h3 id="result"><center> Hello {{ name }}! You have a {{ final_score }} carbon footprint!</center></h3>
+								<br><br>
+								<h4>How can you lower your carbon footprint?</h4><br>
+								<p>{{ suggestion["transpo"] }} {{ suggestion["rec"] }} {{ suggestion["anim"] }} {{ suggestion["good"] }}</p><br>
+								<p>Here are some useful links you might want to check out if you would like more information.</p>
+								<a href="https://www.transportenvironment.org/what-we-do" alt="Sorry. Site is not loading.">Transportation</a><br>
+								<a href="https://www.nrdc.org/stories/reduce-reuse-recycle-most-all-reduce?gclid=CjwKCAjwm4rqBRBUEiwAwaWjjIgX0pwEaxhvHqwRAK-oelk8M2e4X25JeJDbtrcjUlmPgCEx2l0cRhoCR9MQAvD_BwE" alt="Sorry. Site is not loading.">Recycle</a><br>
+								<a href="https://www.peta.org/issues/animals-used-for-food/meat-environment/" alt="Sorry. Site is not loading.">Animal Products</a><br><br><br>
+								<a href="/#"><p align="right">Go back home</p></a>
+							</article>
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+			</div>
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/browser.min.js"></script>
+			<script src="static/assets/js/breakpoints.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<script src="static/assets/js/main.js"></script>
+	</body>
+</html>

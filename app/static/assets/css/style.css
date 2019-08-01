@@ -1,0 +1,77 @@
+ #quiz {
+  height: 1300px;
+ }
+ 
+ #quiz2 {
+  height : 810px;
+ }
+ #result {
+  font-family: 'Vollkorn', serif;
+ }
+ .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ 
+ 
+ /*Dropdown Button */
+/*.dropbtn {*/
+/*  background-color: #4CAF50;*/
+/*  color: white;*/
+/*  padding: 16px;*/
+/*  font-size: 16px;*/
+/*  border: none;*/
+/*}*/
+
+/*.boxed {*/
+/*  border: 4px solid green ;*/
+/*}*/
+
+ /*The container <div> - needed to position the dropdown content */
+/*.dropdown {*/
+/*  position: relative;*/
+/*  display: inline-block;*/
+/*}*/
+
+ /*Dropdown Content (Hidden by Default) */
+/*.dropdown-content {*/
+/*  display: none;*/
+/*  position: absolute;*/
+/*  background-color: #f1f1f1;*/
+/*  min-width: 160px;*/
+/*  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+/*  z-index: 1;*/
+/*}*/
+
+ /*Links inside the dropdown */
+/*.dropdown-content a {*/
+/*  color: black;*/
+/*  padding: 12px 16px;*/
+/*  text-decoration: none;*/
+/*  display: block;*/
+/*}*/
+
+ /*Change color of dropdown links on hover */
+/*.dropdown-content a:hover {background-color: #ddd;}*/
+
+ /*Show the dropdown menu on hover */
+/*.dropdown:hover .dropdown-content {display: block;}*/
+
+ /*Change the background color of the dropdown button when the dropdown content is shown */
+/*.dropdown:hover .dropbtn {background-color: #3e8e41;}*/
+
+									/*<ol>*/
+									/*	<li><h4>Nitrogen</h4>*/
+									/*		<p>As the most abundant gas in our atmosphere, it plays an important role for farmers.  It is essential for plant growth asit can be used to make fertiliser and boost crop yeilds. However, farmers in the U.S. waste around 40% of the nitrogen they use in their crops. Other culprits include vehicle exhaust, power plant exhaust, and large-animal feeding operations</p></li>*/
+									/*	<li><h4>Carbon dioxide</h4>*/
+									/*		<p>CO2 is released through natural processes such as respiration and volcano eruptions and through human activities such as deforestation, land-use changes, and burning fossil fuels.</p> </li>*/
+									/*	<li><h4>Methane</h4>*/
+									/*		<p>This hydrocarbon gas is produced both through natural sources and human activities, including the decomposition of wastes in landfills, agriculture- especially rice cultivation.  as well as manure management associated with domestic livestock.</p></li>*/
+									/*</ol> */
